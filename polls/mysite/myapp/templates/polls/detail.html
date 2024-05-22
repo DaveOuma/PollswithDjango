@@ -14,6 +14,7 @@
             <li>{{ choice.choice_text }}</li>
         {% endfor %}
         </ul>
+        <a href="{% url 'myapp:results' question.id %}"><strong><h2>View Results</h2></strong></a>
         <form action="{% url 'myapp:vote' question.id %}" method="post">
             {% csrf_token %}
             <fieldset>

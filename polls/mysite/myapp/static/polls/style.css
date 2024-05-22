@@ -1,9 +1,5 @@
-li a {
-    color: green;
-}
-
 h1 {
-    color:black
+    color:black;
 }
 
 body {
@@ -12,4 +8,11 @@ body {
     padding: 100px 0 0 0; 
     background-size: cover;
      
+}
+
+li a {
+    color: blue;
+    font-size:xx-large;
+     
+    
 }
